@@ -10,7 +10,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'main', credentialsId: 'github-creds', url: 'https://github.com/rishabhgaikwad-36/bookstore-devops-pipeline.git'
+                git branch: 'main', credentialsId: 'github-creds', url: 'https://github.com/Rishabh-11-bit/bookstore-devops-pipeline.git'
             }
         }
 
